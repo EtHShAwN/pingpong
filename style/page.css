@@ -1,0 +1,19 @@
+canvas{
+    margin: auto;
+    display: block;
+    border: solid 10px;
+    border-radius: 10px;
+    background-color: #303030;
+}
+a#about{
+    color: #1C0BDF;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+}
+a#Sponsor{
+    color: #1C0BDF;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+}

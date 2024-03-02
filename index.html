@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html  lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Ping-Pong</title>
+        <!-- Version 0.0.1 beta -->
+        <link rel="stylesheet" href="./style/page.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <canvas class="Game" width="800px" height="600px">
+            <span>Sorry,Your browser doesn't support canvas</span>
+        </canvas>
+        <div style="margin: 0,auto;text-align: center; font-size:42px;">Warning!!! This is a beta release, so it could be incredibly unstable and buggy!!!</div>
+        <a id="Sponsor">Sponsors</a>
+        <a id="about">About US</a>
+        <div class="score-board">
+            <span>Your Score:</span>
+            <span id="player-Score">0</span>
+            <div></div>
+            <span>opponent's Score:</span>
+            <span id="enemy-Score">0</span>
+        </div>
+        <button disabled>Restart</button>
+        <script type="text/javascript" src="./script/page.js"></script>
+        <script type="text/javascript" src="./script/game.js"></script>
+    </body>
+</html>
